@@ -22,6 +22,11 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'factory_girl_rails'
+end
+
+group :test do
+  gem 'rspec-rails', require: false
 end
 
 group :development do
